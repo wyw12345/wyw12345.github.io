@@ -1,134 +1,74 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
 <title>无标题文档</title>
-<link href="../Documents/Tab.css" type="text/css" rel="stylesheet">
-<style type="text/css">
-<!--
-body{
-	margin:10px;
-}
-#content{
-	border-left:1px solid #11a3ff;
-	border-right:1px solid #11a3ff;
-	border-bottom:1px sollid #11a3ff;
-	padding:15px;
+<style>
+table.outside{
+  background:url(bg1.jpg);
+  font-size:12px;
+  padding:0px;}
+td.title{
+  color:#FFFFFF;
+  font-wight:bold;
+  text-align:center;
+  padding-top:3px;
+  padding-bottom:0px;}
+td.tdoutside{
+	padding:0px 1px 4px 1px;
+	}
+table.inside{
+	width:269px;
 	font-size:12px;
-}
-#leftpic {
-	width:160px;
-	float:left;
-	padding-right:15px;
-}
-#leftpic a:link, #leftpic a:visited{
-	color:#006eb3;
-	text-decoration:none;
-}
-#leftpic a:hover{
-	color:#000000;
-	text-decoration:underline;
-}
-img{
-	border:1px; solid #0066b0;
-	margin-bottom:5px;
-}
-ul#list{
-	list-style-type:none;
+	padding:0px;
 	margin:0px;
-	padding:5px 0px 5px 2px;
-}
-ui#list li{
-	line-height:18px;
-}
-ul#list li a:link{
-	color:#000000;
-	text-decoration:none;
-}
-ul#list li a:visited{
-	color:#333333;
-	text-decoration:none;
-}
-ul#list li a:hover{
-	color:#006eb3;
-	text-decoration:underline;
-}
-ul#tabnav{
-	list-style-type:none;
+	}
+td.tdinside{
+	padding:7px 0px 7px 10px;
+	background-color:#FFD455;
+	}
+form{
 	margin:0px;
-	padding-left:0px;
-	padding-bottom:23px;
-	border-bottom:1px solid #11a3ff;
-	font:bold 12px verdana, arial;
-}
-ul#tabnav li{
-	float:left;
-	height:22px;
-	background-color:#a3dbff;
-	margin:0px 3px 0px 0px;
-	border:1px solid #11a3ff;
-}
-ul#tabnav a:link, ul#tabnav a:visited{
-	dispaly:block;
-	color:#006eb3;
-	text-decoration:none;
-	padding:5px 10px 3px 10px;
-}
-ul#tabnav a:hover{
-	background-color:#006eb3;
-	color:#FFFFFF;
-}
-body#home li.home, body#news li.news,
-body#sports li.sports, body#music li.music,
-body#nextstation li.nextstation,
-body#blog li.blog{
-	border-bottom:1px solid #FFFFFF;
+	padding:0px;
+	}
+input{
+	font-size:12px;}
+a {
 	color:#000000;
-	background-color:#ffffff;
-}
-body#home li.home a:link,body#home li.home a:visited,
-body#news li.news a:link,body#news li.news a:visited,
-body#sports li.sports a:link,body#sports li.sports a:visited,
-body#music li.music a:link,body#music li.music a:visited,
-body#nextstation li.nextstation a:link,body#nextstation li.nextstation a:visited,
-body#blog li.blog a:link,body#blog li.blog a:visited{
-	color:#000000;
-	background-color:#ffffff;
-}
-body#home li.home a:hover,body#news li.news a:hover,
-body#sports li.sports a:hover,body#music li.music a:hover,
-body#nextstation li.nextstation a:hover,
-body#blog li.blog a:hover {
-	color:#006EB3;
 	text-decoration:underline;
-}
--->
+	}
 </style>
 </head>
 
+
+
 <body>
-<body id="home">
-<ul id="tabnav">
- <li class="home"><a href="../Documents/Tab_home.html">首页</a></li>
- <li class="news"><a href="../Documents/Tab_news.html">新闻</a></li>
- <li class="sports"><a href="../Documents/Tab_sports.html">体育</a></li>
- <li class="music"><a href="../Documents/Tab_music.html">音乐</a></li>
- <li class="nextstation"><a href="../Documents/Tab_nextstation.html">下一站</a></li>
- <li class="blog"><a href="../Documents/Tab_blog.html">博客</a></li>
- </ul>
- <div id="content">
-  <span id="leftpic">
-    <a href="#"><img src="../Documents/picl.jpg"><br>
-    <center>追忆往事，展望未来</center></a>
-  </span>
-  <ul id="list">
-    <li><a herf="#">[首页]追忆往事，展望未来。新年寄语</a></li>
-    <li><a herf="#">[新闻]每年五一、十一长假，很多人不愿出门</a></li>
-    <li><a herf="#">[新闻]清华大学电子系研制成功新一代……</a></li>
-    <li><a herf="#">[体育]奥运火炬接力火热进行</a></li>
-    <li><a herf="#">[音乐]网民调查，你最喜欢的音乐类型</a></li>
-    <li><a herf="#">[博客]自由博客新版正式发布，网友……</a></li>
-  </ul>
-  </div>
+<table class="outside">
+<tr><td bgcolor="#000000" class="title">热点调查</td></tr>
+<tr><td class="tdoutside">
+  <form method="post">
+  <table class="inside" cellspacing="0">
+   <tr>
+<td class="tdinside">
+2015年初您最喜爱看以下哪部电视剧？<br>
+<input type="radio" name="q_498" value="2749" >
+《何以笙箫默》<br>
+<input type="radio" name="q_498" value="2750" >
+《武媚娘传奇》<br>
+<input type="radio" name="q_498" value="2751" >
+《锦绣缘华丽冒险》<br>
+<input type="radio" name="q_498" value="2752" >
+《平凡的世界》<br>
+<input type="radio" name="q_498" value="2753" >
+《长大》<br>
+<input type="submit" value="提交">
+<input type="button" name="viewresult" value="查看">
+<a href="#">新浪-最喜爱电视剧评选</a>
+</td>
+</table>
+</form>
+</td></tr>
+</table>
+
 </body>
-</html>
+<ml>
